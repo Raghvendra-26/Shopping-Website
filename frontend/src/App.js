@@ -17,9 +17,10 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(()=>{
-    axios.get('http://localhost:4000')
+    axios.get('https://shopping-website-0bz9.onrender.com/')
     .then((response)=>console.log(response))
   })
+
   return (
     <div>
       <BrowserRouter>
